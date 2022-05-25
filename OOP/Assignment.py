@@ -9,6 +9,12 @@ class rectangle:
     def get_perimeter(self):
         return 2 * (self.height + self.width)
 
+    def __str__(self):
+        return f" The rectangle has an area of {self.get_area()} and the perimeter is {self.get_perimeter()}"
+
+    def __repr__(self):
+        return f"Area: {self.get_area()}, Perimeter: {self.get_perimeter()}"
+
 
 class square(rectangle):
     def __init__(self):
@@ -22,11 +28,9 @@ class square(rectangle):
     def square_perimeter(self):
         return 2 * (self.width + self.width)
 
+    def __str__(self):
+        return f" The square has an area of {self.square_area()} and the perimeter is {self.square_perimeter()}"
 
-rect = rectangle(3,5)
-area = rect.get_area()
-print(area)
+    def __repr__(self):
+        return f"Area: {self.square_area()}, Perimeter: {self.square_perimeter()}"
 
-sq = square()
-are = sq.square_perimeter()
-print(are)
