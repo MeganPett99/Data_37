@@ -23,6 +23,11 @@ print("\nQ1b\n")
 # (bonus points if you call your previous function within this function
 
 # A1b:
+def factor(num):
+    for i in range(1, num):
+        if num % i == 0:
+            return "number is not a factor"
+    return "number is a factor"
 
 
 
