@@ -1,0 +1,21 @@
+HyperText Transfer Protocol
+
+payload of HTML
+
+HTTP Request
+VERB - URL -Version
+Header - Key-Value Pairs
+Body - Text,JSON, XML
+
+HTTP Response
+
+Response code- Version
+Header
+Body
+
+HTTP Verbs
+GET - Reading
+POST - creating
+PUT - updating/replacing
+PATCH -  modifying
+DELETE - Delete
